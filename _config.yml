@@ -5,6 +5,8 @@
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
 remote_theme: daattali/beautiful-jekyll
+head-extra:
+  - head-custom.html
 
 ############################
 # --- Required options --- #
@@ -296,7 +298,7 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
-  - docs/
+  - docs/S
 
 plugins:
   - jekyll-paginate
